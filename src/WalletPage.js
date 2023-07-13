@@ -30,7 +30,7 @@ function WalletPage() {
 
     return (
         <div>
-            <h1>Address: {accountAddress}</h1>
+            <h1>Contract address {accountAddress}</h1>
             <h3>ETH: {balanceInETH}</h3>
             <h3>DAI: {balanceInDAI}</h3>
         </div>

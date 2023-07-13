@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-image: url('images/bg.jpg');
+  background-size: cover;
+}
+
+div {
+  color: white;
+  padding: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+button {
+  background-color: #282c34;
+  color: white;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #282f34;
+  color: silver;
+  opacity: 1;
+}
